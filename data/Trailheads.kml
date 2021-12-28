@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Trailheads.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Trailheads</name>
+		<open>1</open>
+		<Placemark>
+			<name>Segment 1 - Waterton Canyon</name>
+			<LookAt>
+				<longitude>-105.0942166492888</longitude>
+				<latitude>39.4910372110693</latitude>
+				<altitude>0</altitude>
+				<heading>8.339503705827243</heading>
+				<tilt>14.69354581097198</tilt>
+				<range>140.7783487898341</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-105.0941627909932,39.49089714801218,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Segment 2 - South Platte River TH</name>
+			<LookAt>
+				<longitude>-105.1678413466113</longitude>
+				<latitude>39.40068419600181</latitude>
+				<altitude>0</altitude>
+				<heading>10.54185145108945</heading>
+				<tilt>48.92094096153821</tilt>
+				<range>124.2244523666874</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-105.1677131949093,39.40043305772402,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Segment 3 - Little Scraggy TH</name>
+			<LookAt>
+				<longitude>-105.2474592401439</longitude>
+				<latitude>39.35596352356661</latitude>
+				<altitude>0</altitude>
+				<heading>3.882678777185563</heading>
+				<tilt>2.118316609550322</tilt>
+				<range>196.0585702842336</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-105.2475365824834,39.35586743972915,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
